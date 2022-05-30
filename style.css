@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #EAF6F6;
+    text-align: center;
+    height: 100px;
+}
+
+.navbar{
+    background-color:#66BFBF;
+    padding:14px 16px;
+    width: auto;
+    height: auto;
+
+}
+.navbar li{
+    display: inline-block;
+    text-indent: 20px;
+}
+.navbar li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    font-family:'Dancing Script', cursive;
+    margin-top: 30px;
+    font-size:65px;
+    color: #66BFBF;
+
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color:#66BFBF ;
+  
+}
+span{
+    text-decoration: underline;
+
+}
+
+.body-image{
+    width:52%;
+    position: relative;
+    left:auto;
+   
+}
+
+.about-me{
+    background-color: #6caaddee;
+    line-height: 3;
+   
+}
+.my-photo{
+    margin-top:50px;
+    width:15%;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* color:#66BFBF; */
+    color:#848f8f;
+}
+p{
+    font-family: 'Cute Font', cursive;
+    font-size: 15px;
+   
+}
+hr{
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: #66BFBF;
+}
+
+/* my skills */
+.my-skills{
+    position: relative;
+    width: 75%;
+    margin:30px auto 200px auto;
+    height:30vh;
+
+}
+.web-photo{
+   margin-top:50px;
+   width: 150px;
+   position:absolute;
+   left:0px ;
+   top: 0px;
+
+}
+.my-skills p{
+    margin-top: 10px;
+    width:auto;
+    line-height: 2;
+    position:absolute;
+    left:175px;
+    top: 40px;
+   
+}
+
+/* contact me page */
+
+.contact-me{
+    line-height: 3;
+
+}
+.contact-me h3{
+    margin-top: 30px;
+}
+.contact-me h4{
+    font-family: 'Pacifico', cursive;
+    color:#66BFBF;
+    font-size: 20px;
+}
+.contact-me p{
+   font-size:18px;
+   margin: auto;
+}
+
+.button{
+    background-color:#66BFBF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size:25px;
+    border-radius: 8px;
+    margin-bottom: 25px; 
+}
+
+/* footer */
+.footer{
+   background-color: #66BFBF;
+   height: 100px;
+   width: 100%;
+}
+.footer li{
+    margin-top: 20px;
+    display: inline-block;
+    text-indent: 25px;
+
+}
+.footer li a{
+    font-size: 20px;
+    color:#11999E ;
+    text-decoration: none;
+    list-style: none;
+}
+.footer p{
+    font-size: 12px;
+    margin-top: 20px;
+    color:#EAF6F6 ;
+}
+
